@@ -1,231 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpiderMan</title>
-    <style>
-  header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    padding: 10px;
-    background-color: #2a58b4;
-    color: rgb(8, 7, 7);
-    
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invincible</title>
+  <style>
+    /* Set your background image here */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url("./bg4.jpg"); /* <<< PLACE your background image file here */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
 
-  .right-group {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 50px;
-  font-size: 16px;
-  
-}
+    section {
+      width: 80%;
+      max-width: 900px;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
 
-  .right-side{
-    text-align: right;
-  
-  }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background: linear-gradient(to bottom, #1e2fc5, #898fdf);
+      color: white;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      width: 100px; 
+      height: auto;
+      border-radius: 10px;
+    }
 
     .Menu {
-  display: flex;
-  gap: 50px;
+      display: flex;
+      gap: 30px;
+    }
 
-}
-.Menu a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
-.Menu a:hover {
-  text-decoration: underline;
-  text-shadow: rgb(15, 13, 11) 1px 0 10px;
+    .Menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-}
+    .Menu a:hover {
+      text-decoration: underline;
+    }
 
-.Trav
-{
-    width: 200px;
-    height: auto;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto; /* now allows 2 rows */
-  align-items: center;
-  padding: 10px;
-  background: linear-gradient(to bottom, #b1a53d, #4e2020);
-  color: rgb(3, 4, 3);
-  gap: 10px;
-  font-size: 22px;
-}
-
-footer {
-  background: linear-gradient(to bottom, #73a510, #1b1c1d);
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-  margin-top: 40px;
-  font-size: 0.9rem;
-}
-
-body {
-  background: linear-gradient(45 deg, #ff6b6b, #f7d794)
-}
-
-</style>
-
+    footer {
+      background: linear-gradient(to bottom, #dfcb18, #1a5a9b);
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
-
 <body>
 
-<section> 
-<header>
+  
+  <section>
+    <header>
+      <div class="logo">
+        <img src="./logo1.1.jpg" alt="Image 1" />
+        <h2>Invincible</h2>
+      </div>
+      <nav class="Menu">
+        <a href="#">Click Link</a>
+      </nav>
+    </header>
+    <footer>
+      <h3>Travis Andre</h3>
+    </footer>
+  </section>
 
   
-<div class="logo">
-    <img src= "./logo.jpg" alt="jjk" class="Trav">
-    <h2>Trav</h2>
-</div>
+  <section>
+    <header>
+      <div class="logo">
+        <img src="./logo2.2.jpg" alt="Image 2" />
+        <h2>Invincible</h2>
+      </div>
+      <nav class="Menu">
+        <a href="#">Click Link</a>
+      </nav>
+    </header>
+    <footer>
+      <h3>Travis Andre</h3>
+    </footer>
+  </section>
 
-<div class="right-group">
-<nav class="Menu">
-  <a href="#"><h4>Home</h4></a>
-  <a href="#"><h4>About</h4></a>
-  <a href="#"><h4>Contact</h4></a>
-  <a href="#"><h4>Sign Up</h4></a>
-  <a href="#"><h4>Login</h4></a>
-</nav>
+ 
+  <section>
+    <header>
+      <div class="logo">
+        <img src="./logo3.3.jpg" alt="Image 3" />
+      
+        <h2>Invincible</h2>
+      </div>
+      <nav class="Menu">
+        <a href="#">Click Link</a>
+      </nav>
+    </header>
+    <footer>
+      <h3>Travis Andre</h3>
+    </footer>
+  </section>
 
-    <div class="right-side">
-    </div>
-    </div>  
-  </header>
+ 
+  <section>
+    <header>
+      <div class="logo">
+        <img src="./logo4.4.jpg" alt="Image 4" />
+        <h2>Invincible</h2>
+      </div>
+      <nav class="Menu">
+        <a href="#">Click Link</a>
+      </nav>
+    </header>
+    <footer>
+      <h3>Travis Andre</h3>
+    </footer>
+  </section>
 
-  <footer>
-  <h2> Travis Andre </h2>
-</footer>
-</section>
 
-<section> 
-<header>
-
-  
-<div class="logo">
-    <img src="sonder.jpg" alt="jjk" class="sonder">
-    <h2>SONDER</h2>
-</div>
-
-<div class="right-group">
-<nav class="Menu">
-  <a href="#"><h4>Home</h4></a>
-  <a href="#"><h4>About</h4></a>
-  <a href="#"><h4>Contact</h4></a>
-  <a href="#"><h4>Sign Up</h4></a>
-  <a href="#"><h4>Login</h4></a>
-</nav>
-
-    <div class="right-side">
-    </div>
-    </div>  
-  </header>
-
-  <footer>
-  <h3> Sean Kyle Fetalvero | TC05 </h3>
-</footer>
-</section>
-
-<section> 
-<header>
-
-  
-<div class="logo">
-    <img src="sonder.jpg" alt="jjk" class="sonder">
-    <h2>SONDER</h2>
-</div>
-
-<div class="right-group">
-<nav class="Menu">
-  <a href="#"><h4>Home</h4></a>
-  <a href="#"><h4>About</h4></a>
-  <a href="#"><h4>Contact</h4></a>
-  <a href="#"><h4>Sign Up</h4></a>
-  <a href="#"><h4>Login</h4></a>
-</nav>
-
-    <div class="right-side">
-    </div>
-    </div>  
-  </header>
-
-  <footer>
-  <h3> Sean Kyle Fetalvero | TC05 </h3>
-</footer>
-</section>
-<section> 
-<header>
-
-  
-<div class="logo">
-    <img src="sonder.jpg" alt="jjk" class="sonder">
-    <h2>SONDER</h2>
-</div>
-
-<div class="right-group">
-<nav class="Menu">
-  <a href="#"><h4>Home</h4></a>
-  <a href="#"><h4>About</h4></a>
-  <a href="#"><h4>Contact</h4></a>
-  <a href="#"><h4>Sign Up</h4></a>
-  <a href="#"><h4>Login</h4></a>
-</nav>
-
-    <div class="right-side">
-    </div>
-    </div>  
-  </header>
-
-  <footer>
-  <h3> Sean Kyle Fetalvero | TC05 </h3>
-</footer>
-</section>
-<section> 
-<header>
-
-  
-<div class="logo">
-    <img src="sonder.jpg" alt="jjk" class="sonder">
-    <h2>SONDER</h2>
-</div>
-
-<div class="right-group">
-<nav class="Menu">
-  <a href="#"><h4>Home</h4></a>
-  <a href="#"><h4>About</h4></a>
-  <a href="#"><h4>Contact</h4></a>
-  <a href="#"><h4>Sign Up</h4></a>
-  <a href="#"><h4>Login</h4></a>
-</nav>
-
-    <div class="right-side">
-    </div>
-    </div>  
-  </header>
-
-  <footer>
-  <h3> Sean Kyle Fetalvero | TC05 </h3>
-</footer>
-</section>
+  <section>
+    <header>
+      <div class="logo">
+        <img src="./logo5.5.jpg" alt="Image 5" />
+        <h2>Invincible</h2>
+      </div>
+      <nav class="Menu">
+        <a href="#">Click Link</a>
+      </nav>
+    </header>
+    <footer>
+      <h3>Travis Andre</h3>
+    </footer>
+  </section>
 
 </body>
 </html>
-
