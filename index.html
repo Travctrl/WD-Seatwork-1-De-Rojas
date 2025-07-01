@@ -28,30 +28,15 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
 
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px;
-      background: linear-gradient(to bottom, #1e2fc5, #898fdf);
+    header, footer {
       color: white;
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+      padding: 15px;
     }
 
     .logo img {
-      width: 100px; 
+      width: 100px;
       height: auto;
       border-radius: 10px;
-    }
-
-    .Menu {
-      display: flex;
-      gap: 30px;
     }
 
     .Menu a {
@@ -64,22 +49,106 @@
       text-decoration: underline;
     }
 
-    footer {
-      background: linear-gradient(to bottom, #dfcb18, #1a5a9b);
-      color: white;
+    .style1 header {
+      background: linear-gradient(to right, #e52d27, #b31217);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
-      padding: 15px 0;
-      font-size: 0.9rem;
+      gap: 10px;
+      border: 5px double white;
     }
+    .style1 footer {
+      background: linear-gradient(to right, #b31217, #e52d27);
+      text-align: center;
+      border-top: 5px double white;
+      font-family: Georgia, serif;
+    }
+
+    .style2 header {
+      background: linear-gradient(to right, #11998e, #38ef7d);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      border: 6px solid #ffffffcc;
+      border-radius: 10px;
+    }
+    .style2 footer {
+      background: linear-gradient(to right, #38ef7d, #11998e);
+      text-align: left;
+      border-top: 6px solid #ffffffcc;
+      border-radius: 0 0 10px 10px;
+      font-family: "Arial Black", Gadget, sans-serif;
+    }
+
+    .style3 header {
+      background: linear-gradient(to right, #373b44, #4286f4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border: 4px dotted #fff;
+    }
+    .style3 footer {
+      background: linear-gradient(to right, #4286f4, #373b44);
+      text-align: right;
+      border-top: 4px dotted #fff;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    .style4 header {
+      background: linear-gradient(to right, #f7971e, #ffd200);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      border: 8px groove white;
+    }
+    .style4 footer {
+      background: linear-gradient(to right, #ffd200, #f7971e);
+      text-align: center;
+      font-style: italic;
+      border-top: 8px groove white;
+      font-family: Verdana, Geneva, sans-serif;
+    }
+
+    .style5 header {
+      background: linear-gradient(to right, #654ea3, #eaafc8);
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      border: 3px dashed white;
+    }
+    .style5 footer {
+      background: linear-gradient(to right, #eaafc8, #654ea3);
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-top: 3px dashed white;
+      font-family: "Trebuchet MS", sans-serif;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .Menu {
+      display: flex;
+      gap: 20px;
+    }
+
   </style>
 </head>
 <body>
 
-  
-  <section>
+  <section class="style1">
     <header>
       <div class="logo">
-        <img src="assets/img/logo1.1.jpg"Image 1" />
+        <img src="assets/img/logo1.1.jpg" alt="Image 1" />
         <h2>Invincible</h2>
       </div>
       <nav class="Menu">
@@ -87,16 +156,15 @@
       </nav>
     </header>
     <footer>
-      <h3>Travis Andre</h3>
+      <h3>Andre Daniel D. De Rojas TC05</h3>
     </footer>
   </section>
 
-  
-  <section>
+  <section class="style2">
     <header>
       <div class="logo">
         <img src="assets/img/logo2.2.jpg" alt="Image 2" />
-        <h2>Invincible</h2>
+        <h2>Mark</h2>
       </div>
       <nav class="Menu">
         <a href="#">Click Link</a>
@@ -107,52 +175,48 @@
     </footer>
   </section>
 
- 
-  <section>
+  <section class="style3">
     <header>
       <div class="logo">
         <img src="assets/img/logo3.3.jpg" alt="Image 3" />
-      
-        <h2>Invincible</h2>
+        <h2>Grayson</h2>
       </div>
       <nav class="Menu">
         <a href="#">Click Link</a>
       </nav>
     </header>
     <footer>
-      <h3>Travis Andre</h3>
+      <h3>Andre Daniel</h3>
     </footer>
   </section>
 
- 
-  <section>
+  <section class="style4">
     <header>
       <div class="logo">
         <img src="assets/img/logo4.4.jpg" alt="Image 4" />
-        <h2>Invincible</h2>
+        <h2>Mark Grayson</h2>
       </div>
       <nav class="Menu">
         <a href="#">Click Link</a>
       </nav>
     </header>
     <footer>
-      <h3>Travis Andre</h3>
+      <h3>De Rojas</h3>
     </footer>
   </section>
 
-
-  <section>
+  <section class="style5">
     <header>
       <div class="logo">
         <img src="assets/img/logo5.5.jpg" alt="Image 5" />
-        <h2>Invincible</h2>
+        <h2>Omni-Man's son</h2>
       </div>
       <nav class="Menu">
         <a href="#">Click Link</a>
       </nav>
     </header>
     <footer>
-      <h3>Travis Andre</h3>
+      <h3>IT00043 TC05</h3>
     </footer>
   </section>
 
