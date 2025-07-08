@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/img/readme.logo.jpg" alt="Invincible Logo" width="120"/>
+  <img src="assets/img/logoreadme.jpg" alt="Invincible Logo" width="120"/>
 </p>
 
 <h1 align="center">Invincible</h1>
