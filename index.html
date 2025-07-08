@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Design Invincible-themed webpage layout with logos, navigation, and background image</title>
+  <title>Invincible</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -101,10 +101,17 @@
       background: conic-gradient(from 90deg, #434343, #000000);
       color: #00ccff;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: space-between;
       align-items: center;
       padding: 30px 20px;
       border-bottom: 6px ridge #00ccff;
+    }
+    .style3 .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-left: auto;
     }
     .style3 footer {
       background: repeating-linear-gradient(45deg, #000000, #222222 10px, #111111 20px);
@@ -196,13 +203,13 @@
 
   <section class="style3">
     <header>
+      <nav class="Menu">
+        <a href="#">Click Link</a>
+      </nav>
       <div class="logo">
         <img src="assets/img/logo3.3.jpg" alt="Image 3" />
         <h2>Grayson</h2>
       </div>
-      <nav class="Menu">
-        <a href="#">Click Link</a>
-      </nav>
     </header>
     <footer>
       <h3>Andre Daniel</h3>
