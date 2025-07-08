@@ -84,11 +84,10 @@ This project uses:
 
 ## 🔗 Resources Used
 
-| Title             | Purpose                                        | Link                                       |
-|------------------|------------------------------------------------|--------------------------------------------|
-| CSS Gradient Tool | For building/testing gradient backgrounds      | [cssgradient.io](https://cssgradient.io)   |
+| Title             | Purpose                                        | Link                           |
+|------------------|------------------------------------------------|--------------------------------|
+| CSS Gradient Tool | For building/testing gradient backgrounds      | [cssgradient.io](https://cssgradient.io) |
 | Font Awesome      | Icons for navbars and UI components            | [fontawesome.com](https://fontawesome.com) |
-| Glitch Effect CSS | Inspiration for glitch animation               | [codrops.com](https://tympanus.net/codrops)|
-| Digital Rain Demo | Matrix-style animation for creative design     | [codepen.io](https://codepen.io)           |
-| Google            | General reference and quick lookups            | [google.com](https://www.google.com)       |
+| Glitch Effect CSS | Inspiration for glitch animation               | [codrops.com](https://tympanus.net/codrops) |
+| Digital Rain Demo | Matrix-style animation for creative design     | [codepen.io](https://codepen.io) |
 
