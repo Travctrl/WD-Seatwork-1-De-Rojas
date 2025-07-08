@@ -79,7 +79,7 @@ This project uses:
 ---
 
 ## 📁 File Structure
-
+'''
 WD-INVINCBLE/
 │
 ├── assets/
@@ -97,7 +97,7 @@ WD-INVINCBLE/
 │
 ├── index.html
 └── readme.md
-
+'''
 ---
 
 ## 🔗 Resources Used
