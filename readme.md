@@ -79,25 +79,7 @@ This project uses:
 ---
 
 ## 📁 File Structure
-'''
-WD-INVINCBLE/
-│
-├── assets/
-│ ├── css/
-│ │ └── mainStyle.css
-│ ├── img/
-│ │ ├── bg4.jpg
-│ │ ├── logo1.1.jpg
-│ │ ├── logo2.2.jpg
-│ │ ├── logo3.3.jpg
-│ │ ├── logo4.4.jpg
-│ │ └── logo5.5.jpg
-│ └── js/
-│ └── mainScript.js
-│
-├── index.html
-└── readme.md
-'''
+<pre> ``` WD-SEATWORK1 ├── assets │ ├── css │ │ └── style.css │ ├── img │ │ └── logoreadme.png │ └── js │ └── script.js ├── pages │ └── examplePage │ ├── assets │ │ ├── css │ │ │ └── style.css │ │ ├── img │ │ │ └── exampleImage.webp │ │ └── js │ │ └── script.js │ └── index.html ├── index.html └── readme.md ``` </pre>
 ---
 
 ## 🔗 Resources Used
